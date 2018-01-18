@@ -34,7 +34,8 @@ At the time of porting, keras has issue with using Masking along with Bidirectio
 For unknown words we recommend to use value other than ones used for padding, a small non-zero value say 1e-10 is recommended 
 
 ## Implementation Details
-Refer to PortFromPytorchToKeras.ipynb 
+- Refer to PortFromPytorchToKeras.ipynb 
+- The ported Keras model is tested against PyTorch model CoVe predictions on SNLI corpus, For testing details refer - PortingTest.ipynb
 
 ## Reference 
 1. [MT-LSTM from the paper Learned in Translation: Contextualized Word Vectors (McCann et. al. 2017)](https://arxiv.org/abs/1708.00107)
