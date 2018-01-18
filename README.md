@@ -8,7 +8,7 @@ The Weights are ported from PyTorch implementation of MT-LSTM by the paper's aut
 Ported & tested on:
 
 - keras==2.1.3
-- tensorflow-gpu==1.0.0
+- tensorflow-gpu==1.4.1
 
 For re-running PortFromPytorchToKeras.ipynb requires of PyTorch MT-LSTM implementation from site: https://github.com/salesforce/cove
 
